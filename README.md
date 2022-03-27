@@ -18,4 +18,4 @@ pip install boto3
 ```
 pip install moto
 ```
-- Important note, sometimes pip only won't work with u, You may have mixed up Python and pip versions on your machine (this happened with me on win 10). In this case, to install boto3 for Python 3, you may want to try python3 -m or pip3 before every command, and u should be ready to go!
+- Important note, sometimes pip only won't work with u, You may have mixed up Python and pip versions on your machine (this happened with me on win 10). In this case, to install boto3 for Python 3, you may want to try `python3 -m` or `pip3` before every command, and u should be ready to go!
