@@ -11,7 +11,11 @@
 - moto > A library that allows you to easily mock out tests based on AWS infrastructure (so u don't need a real AWS service, just use moto and generate decorators for any resource u like !).
 # Installation:
 - for boto3, if u are using vscode, u need to install python Interpreter first coz u will need pip tool to be able to install boto3:
-```pip install boto3```
+```
+pip install boto3
+```
 - for moto, u will need python (pip) too:
-```pip install moto```
+```
+pip install moto
+```
 - Important note, sometimes pip only won't work with u, You may have mixed up Python and pip versions on your machine (this happened with me on win 10). In this case, to install boto3 for Python 3, you may want to try python3 -m or pip3 before every command, and u should be ready to go!
