@@ -2,7 +2,7 @@
 
 # SNS and SQS (AWS)
 - A simple tutorial to set up SQS queue to subscribe to SNS Topic using python.
-- Before we start, if u are interested to know more about SQS & SNS, [this](https://www.beabetterdev.com/2021/08/08/aws-sns-vs-sqs-whats-the-difference/) is a cool guild for u.
+- Before we start, if u are interested to know more about SQS & SNS, [THIS](https://www.beabetterdev.com/2021/08/08/aws-sns-vs-sqs-whats-the-difference/) is a cool guild for u.
 - In the handler file, u will find 2 functions, the first is for publishing msgs to SNS topic, this function should have some basic metadata like a client and a topic ARN.
 - After subscribing SQS Queue to the SNS topic, we will need another function for reading the received msgs to the Queue, so it's the second function there.
 - In the tester file, we will just be testing those functions above, the first one will publish the msgs to the SNS topic, the sec one will just subscribe SQS Queue to the SNS topic for reading the msgs from the Queue.
